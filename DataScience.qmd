@@ -1,0 +1,48 @@
+---
+title: "DataScience"
+format: html
+editor: visual
+---
+
+# **Homework Assignment 1**
+
+## **Step 3**:
+
+### **Part 1**:
+
+#### 1) What do you think being a data scientist is about?
+
+Data Sceience is the process of transforming raw data into understanding, insight, and knowledge.
+
+#### 2) What differences/similarities do you see between data scientists and statisticians?
+
+Many data science and statisticians are both familiar with multiple coding languages, both have strong backgrounds in machine learning, can have experience with statistical analysis especially wit large data sets. 
+
+Some key distinctions between data scientists and statisticians is the scope of their work. Data scientists are in a variety of industries, including tech, finance, healthcare and marketing. Statisticians mainly work in academia, government or research institutions.Both fi to answer different questions. Data scientists may focus on related technologies like automation, machine learning, and software engineering while statisticians favor mathematical concepts like significance testing, diagnostic plots, and manual data collection to achieve their goals.
+
+#### 3) How do you view yourself in relation to these two areas?
+
+I view myself as a budding statistician. I'n my chosen field of Conservation Biology, I will be preforming manual data collection and statistical testing throughout my career.  
+
+### **Part 2**
+
+#### Initial code chunk
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+#### Determining the class, type, and structure of the object "y"
+```{r}
+class(y)
+str(y)
+typeof(y)
+```
+
+#### Using the plot function (plot()) to plot the object "y"
+```{r}
+#| echo: false
+plot(y)
+```
+
+
+
